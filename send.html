@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>send</title>
+</head>
+<body>
+    <h3>вы попали на страницу отпрвки жалоб в космос</h3>
+<form method="GET">
+    <div>
+       <label for="user_name">Имя
+           <input type="text" name="user_name" id="user_name" 
+           placeholder="Ваня" required></label>
+    </div>
+    <div>
+        <label for="age">Возраст
+            <input type="number" name="age" id="age"
+             placeholder="16"></label>
+    </div>
+    <div>   
+        <label for="email">Почта
+            <input type="email" name="email" id="email" 
+            placeholder="example@ex.com" required></label><!--хром автоматически заполняет почту и телефон заодно, думаю из-за того, что авторизован в хроме-->
+    </div>
+    <div>
+        <label for="password">Пароль
+            <input type="password" name="password" id="password" 
+            placeholder="*****" required></label>
+    </div>
+    <div>
+        <label for="number">Телефон
+            <input type="number" name="tel" id="number" 
+            placeholder="+79001234567" required></label><!--когда разносишь содержание тега в 2 строки. между названием формы и самой формой появляется пробел-->
+    </div>
+    <div>
+        <textarea name="message" cols="30" rows="4"placeholder="я ел могол тебя">я вас всех в рот</textarea>
+    </div>
+<button type="submit">отправить</button>
+<button type="reset">заново</button>
+</form>
+   <div>
+        <a href="./index.html" title="page 1" target="_blank">page 1</a>
+        <a href="./form.html" title="переход на страницу 2" target="_blank">page 2</a>
+   </div> 
+</body>
+</html>
